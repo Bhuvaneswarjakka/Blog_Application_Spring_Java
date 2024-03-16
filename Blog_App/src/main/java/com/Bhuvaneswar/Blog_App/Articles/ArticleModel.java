@@ -40,7 +40,7 @@ public class ArticleModel
     private Date createdAt;
 
     @ManyToOne
-    @JoinColumn(name = "author_id", nullable = false)
+    @JoinColumn(name = "authorId", nullable = false)
     private UserModel author;
 
     //TODO: Add Tags

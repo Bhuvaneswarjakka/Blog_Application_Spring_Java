@@ -33,11 +33,11 @@ public class CommentModel
     private String body;
 
     @ManyToOne
-    @JoinColumn(name = "article_id", nullable = false)
+    @JoinColumn(name = "articleId", nullable = false)
     private ArticleModel article;
 
     @ManyToOne
-    @JoinColumn(name = "commenter_id", nullable = false)
+    @JoinColumn(name = "commenterId", nullable = false)
     private UserModel commenter;
 
 
